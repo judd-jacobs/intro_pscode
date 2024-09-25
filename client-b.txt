@@ -1,4 +1,21 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Start
+Generate some type of a map in the form of a grid of the warehouse
+Determine the customer's starting position on the grid
+Determine the final position on the map to which they are heading
+
+While customer is not final position
+	Prompt user to enter a direction: north, south, east, west
+	Update customer's position on the map
+	If the new position is off map 
+		Print "Not a valid move."
+	Else if new position matches the desired location:
+		Print "You have reached your desired location."
+End
+
+
+
+
 

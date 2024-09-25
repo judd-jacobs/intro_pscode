@@ -1,4 +1,21 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Start
+Create Variable [number] = Random number between 1 and 10
 
+Create variable [guesses] = 0
+
+While [guesses] is < 3
+	User inputs a numeric guess
+		If guess = [number]
+			Print "Correct!"
+				Exit loop
+   		If guess is > [number]
+			Print "Guess is too high."
+  		If guess is < [number]
+			Print "Guess is too low."
+		Increase [guesses] by 1
+If [guesses] = 3:
+	Print "You have run out of attempts. The correct number is [number]."
+End

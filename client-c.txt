@@ -1,4 +1,10 @@
 # Client Task C #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Start
+Create a variable [count] = 2
 
+While [count] is <= to 50
+	Print "[count]"
+	Increase [count] by 2
+End
